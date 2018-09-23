@@ -1,0 +1,93 @@
+drag-scroll {
+    height: 100%;
+    width: 100%;
+  }
+  .scrollItem {
+    height: 100%;
+    width: 100%;
+  }
+  .fullheight{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  svg{
+    position: absolute;
+    bottom: 50px;
+
+  }
+  
+  .cityImage{
+    background: url('../assets/city.jpeg') no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  .centerAlign{
+width:100%;
+margin-top:25%;
+color:#FFFFFF;
+  }
+  .float-content{
+      width:50%;
+      float:left;
+  }
+  .row{
+      width: 100%
+  }
+  .row-content{
+      width:100%;
+      float:left;
+  }
+  p.message {
+    position: relative;
+width: 100px;
+padding: 8px;
+margin-right: 20px;
+float: right;
+margin-top: 20px;
+border: 2px solid #000000;
+border-right: none;
+border-radius: 20px;
+background: #000000;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 20px;
+  }
+  p.message:before {
+    position: absolute;
+content: '';
+top: -2px;
+right: 0px;
+height: 15%;
+width: 15%;
+border-top: 10px solid #000000;
+border-right: 10px solid #000000;
+/* border-bottom: 3px solid #000000; */
+/* border-left: 3px solid #000000; */
+-webkit-transform-origin: bottom right;
+-webkit-transform: skew(-45deg);
+-moz-transform: skew(-45deg);
+transform: skew(-45deg);
+  }
+  .customerwelcome{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+48,72aa00+100,9ecb2d+100,72aa00+101 */
+    background: #bfd255; /* Old browsers */
+    background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 48%, #72aa00 100%, #9ecb2d 100%, #72aa00 101%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 48%,#72aa00 100%,#9ecb2d 100%,#72aa00 101%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 48%,#72aa00 100%,#9ecb2d 100%,#72aa00 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#72aa00',GradientType=0 ); /* IE6-9 */
+  }
+  .message-display{
+      width: 50%;
+      margin: 20px auto;
+      white-space: normal;
+  }
+  .travel{
+    background-image: url(../assets/worldmap.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+  }
+  .transform{
+  transition: transform 3s ease-in-out;
+  }
